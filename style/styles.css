@@ -1,0 +1,194 @@
+/*1420*5080px*/
+*{
+	padding: 0;
+	margin: 0;	
+	font-family: 'Lato', sans-serif;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1420px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+nav {
+	background: #eef2f2;
+	height: 96px;
+}
+
+nav > img {
+	margin: 14px 155px 17px 138px;
+	float: left;
+}
+
+nav ul {
+	float: left;
+	padding-top: 35px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 0 22px;    
+	font-size: 25px
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #010101;
+}
+
+#menu {
+	padding: 29px 100px 0 0;
+	float: right;
+}
+
+#menu a {
+	font-size: 25px;
+	color: #040404;
+	padding: 0 15px;
+}
+
+nav ul li a:hover{
+	color: #f20000;	
+	transition: all 0.5s ease;
+}
+
+#menu a:hover{
+	color: #f20000;
+	transition: all 0.5s ease;
+}
+
+.first_page {
+	background: url(../img/background_1.png) no-repeat center top / cover;
+	height: 800px;
+}
+
+.title_first {
+	padding-top: 270px;
+	padding-left: 140px;	
+}
+
+.title_first h1 {
+	color: #ffffff;
+	font-size: 45px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	padding-bottom: 22px;
+}
+
+.title_first h2 {
+	color: #ffffff;
+	font-size: 72px;
+	text-transform: uppercase;
+	padding: 22px 0 50px 0;
+}
+
+.button a{
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color: #000000FF;
+	background: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	width: 173px;
+	padding: 24px 0;
+	box-shadow: 18px 22px 0 #e8fd37;
+}
+
+.second_page {
+	background: url(../img/background_2.png) no-repeat center top / cover;
+	height: 4199px;
+}
+
+.title {
+	width: 750px;
+	margin: 0 auto;
+}
+
+.title h1 {
+	font-weight: bold;
+	font-size: 55px;
+	text-transform: capitalize;
+	text-align: center;
+	color: #010101;
+	padding-top: 100px;
+}
+
+.title p {
+	font-size: 30px;
+	color: #6a6666;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.work {	
+	padding-top: 60px;
+	width: 370px;	
+}
+
+.work img {
+	position: relative;
+	z-index: 1;
+}
+
+.work div {
+	position: relative;
+	top: -20px;
+	width: 300px;
+	height: 200px;
+	background: #e3e9eb;
+	box-shadow: 0px 3px 20px 10px #A0A0A0;
+	margin: 0 auto;
+	z-index: 2;
+	text-align: left;
+}
+
+.work h1 {
+	font-weight: bold;
+	font-size: 20px;
+	color: #000000;	
+	padding: 25px 0 20px 25px;
+}
+
+.work p {
+	font-size: 16px;
+	color: #000000;
+	padding: 0 0 15px 25px;
+}
+
+.work a {
+	font-size: 16px;
+	text-decoration: none;
+	color: #000000FF;
+	font-weight: bold;
+	margin-left: 25px;
+	background-color: #e8fd37;
+}
+
+.work a:hover{
+	color: #f20000;
+	transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+.work img:nth-child(2){
+	padding-left: 25px;
+}
+
+.work img:last-child{
+	float: right;
+	padding-right: 130px;
+}
