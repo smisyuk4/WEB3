@@ -223,7 +223,7 @@ nav ul li a:hover{
 
 #projects img:nth-child(2){	
 	float: left;
-	margin: 50px 0 25px 26px;	
+	margin: 50px 0 25px 32px;	
 }
 
 #projects img:nth-child(3){	
@@ -240,7 +240,7 @@ nav ul li a:hover{
 #projects img:nth-child(5){	
 	float: left;
 	margin-top: 50px;
-	margin-left: 26px; 
+	margin-left: 32px; 
 }
 
 #projects img:nth-child(6){	
