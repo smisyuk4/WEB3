@@ -118,7 +118,7 @@ nav ul li a:hover{
 
 .second_page {	
 	background: #f1f7fa;
-	height: 4199px;
+	height: 2450px;
 }
 
 .title {
@@ -260,8 +260,198 @@ nav ul li a:hover{
 	clear: both;
 }
 
-#customers_carusel{
-	
+#customers_slider {
+	padding-top: 50px;
+	width: 380px;
+	margin: 0 auto;
+	position: relative;
 }
 
+.page {	
+	width: 370px;
+	height: 202px;
+	background-color: #3d3d3f;	
+}
 
+.page img {
+	float: left;
+}
+
+.page p {
+	float: left;
+	font-size: 15px;
+	line-height: 1.4;
+	color: #fffcfc;
+	width: 205px;
+	padding: 18px 0 0 12px;
+}
+
+.page h1 {
+	float: left;
+	font-size: 15px;
+	color: #e8fd37;
+	width: 205px;
+	padding: 24px 0 0 12px;
+}
+
+.page h2 {
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+	color: #fffefe;
+	width: 205px;
+	padding-left: 142px;
+}
+
+.page {
+	float: left;
+	width: 25%;	
+}
+
+#slides {
+	background: #FFFFFFFF;
+	padding: 5px;
+	box-shadow: 2px 2px 4px #000000FF, inset 1px 1px 0 #e8fd37;
+	border-radius: 5px;
+}
+
+.inner {
+	width: 400%;
+}
+
+.inner:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+#overflow {
+	overflow: hidden;
+}
+
+#customers_slider input {
+	display: none;
+}
+
+#controls label {
+	display: none;
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+#controls label:hover {
+	opacity: 0.8;
+}
+
+#controls {
+	position: absolute;
+	width: 100%;
+	top: 135px;
+}
+
+/*создаём стрелку справа*/
+#slide1:checked ~ #controls label:nth-child(2), 
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(1){
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 20px solid #333;
+	border-bottom: 20px solid transparent;
+	float: right;
+	margin-right: -30px;
+	display: block;
+}
+
+/*создаём стрелку слева*/
+#slide1:checked ~ #controls label:nth-child(3), 
+#slide2:checked ~ #controls label:nth-child(1),
+#slide3:checked ~ #controls label:nth-child(2){
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 20px solid #333;
+	border-bottom: 20px solid transparent;
+	float: left;
+	margin-left: -27px;
+	display: block;
+}
+
+/*Создаем перелистывание картинок*/
+#slide1:checked ~ #slides .inner {margin-left: 0;}
+#slide2:checked ~ #slides .inner {margin-left: -100%;}
+#slide3:checked ~ #slides .inner {margin-left: -200%;}
+
+/*Создаём кнопки под слайдером*/
+#active {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#active label {
+	width: 15px;
+	height: 15px;
+	background: #3d3d3f;
+	display: inline-block;
+	border-radius: 100%;
+}
+
+#active label:hover {
+	box-sizing: inherit;
+	cursor: pointer;	
+	background: #e8fd37;
+	border: 2px solid #000000;	
+	transition: all 0.5s ease;
+}
+
+#sofa {
+	background: url(../img/bar_sofa.png) no-repeat center top / cover;
+	height: 160px;
+}
+
+#director {
+	background: #d9e858;
+	height: 400px;
+}
+
+#director img {
+	float: left;
+	padding: 55px 0 0 155px;
+}
+
+#director div {
+	float: left;
+	width: 820px;
+	padding: 100px 0 0 30px;
+}
+
+#director p {
+	font-size: 28px;
+	line-height: 1.4;
+}
+
+#director h1 {
+	font-size: 22px;
+	padding-top: 25px;
+}
+
+#director h2 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#talk {
+	background: #ffffff;
+	height: 760px;
+}
+
+#talk_form {
+	border: 2px solid blue;
+	text-align: center;
+}
+
+#b3 {
+	padding-top: 35px;
+	padding-left: 635px;
+}

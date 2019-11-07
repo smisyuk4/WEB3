@@ -69,7 +69,7 @@
 		<div>
 			<div class="container_inner">
 				<div class="title">
-					<h1>Our Feature Projects</h1>						
+					<h1>Our Feature Projects</h1>		
 				</div>
 				<div id="projects">
 					<img src="img/project_1.png" alt="">
@@ -86,32 +86,73 @@
 		</div>
 		<div id="customers_say" >
 			<div class="title">
-				<h1>Our Customers Say:</h1>						
+				<h1>Our Customers Say:</h1>				
 			</div>
-
-			<div id="customers_carusel">
-				<ul>
-					<li><img src="img/Customers_1.png" alt=""></li>
-					<li><img src="img/Customers_2.png" alt=""></li>
-					<li><img src="img/Customers_3.png" alt=""></li>
-				</ul>
+			<div id="customers_slider">
+				<input type="radio" name="slider" id="slide1" checked="">
+				<input type="radio" name="slider" id="slide2">
+				<input type="radio" name="slider" id="slide3">
+				<div id="slides"> <!-- рамка вокруг картинки-->
+					<div id="overflow"> <!-- скрывает картинки, которые не активны-->
+						<div class="inner"> <!-- содержит все картинки-->	 
+							<div class="page">
+								<img src="img/Customers_1.png" alt="">
+								<p>«Dictas vituperata dissentiet ex nec. Utroque molesta. Definiebas vituperata an pro, sit te adhuc voluptatum. Ad sed rebum melius adipisci.»</p>
+								<h1>Don Stuart</h1>
+								<h2>photographer</h2>
+							</div>	
+							<div class="page">
+								<img src="img/Customers_2.png" alt="">
+								<p>«Ut quas albucius accusamus vis. Eum id posse numquam, nostrum singulis consectetuer eu duo, . Ne his propriae phaedrum defnieba.»</p>
+								<h1>Melani Steevs</h1>
+								<h2>economist</h2>
+							</div>
+							<div class="page">
+								<img src="img/Customers_3.png" alt="">
+								<p>«Numquam dolorum no qui, an eam alii temporibus conclusionemque. Ipsum doming graecis eu mel, has everti dissentiet eu. Vel dico»</p>
+								<h1>Daniella S.</h1>
+								<h2>student</h2>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div id="controls"> <!-- стрелки справа и слева-->
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>					
+				</div>
+				<div id="active"> <!-- кнопки внизу слайдера-->
+					<label for="slide1"></label>
+					<label for="slide2"></label>
+					<label for="slide3"></label>		
+				</div>				
 			</div>
-
-
-
-
-
-
-
-
 		</div>
 	</section>
+	<section class="container" id="sofa"></section>
+	<section class="container" id="director">
+		<img src="img/director.png" alt="">
+		<div>
+			<p>«Hinc velit munere in sed, cetero tacimates cotidieque has ex. Ad nemore option vis, alterum maluisset conclusionemque at ius. Nam esse ullamcorper ei, at duo affert impetus. Erat dicunt at quo.»</p>
+			<h1>Samantha Smith</h1>
+			<h2>general director</h2>
+		</div>
+	</section>
+	<section class="container" id="talk">
+		
+		<div class="title">
+			<h1>Let’s Talk</h1>				
+		</div>
 
+		<div id="talk_form">
+			forms
+		</div>
 
-	<section class="container">s3	</section>
-	<section class="container">s4	</section>
-	<section class="container">s5	</section>
-	<section class="container">s6	</section>
+		<div class="button clearfix" id="b3">
+			<a href="#">send</a>
+		</div>
+		
+	</section>	
 	<footer class="container">	footer 
 		<div>
 			<a href="#"><i class="fab fa-instagram"></i></a>
