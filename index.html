@@ -119,7 +119,7 @@
 				<div id="controls"> <!-- стрелки справа и слева-->
 					<label for="slide1"></label>
 					<label for="slide2"></label>
-					<label for="slide3"></label>					
+					<label for="slide3"></label>		
 				</div>
 				<div id="active"> <!-- кнопки внизу слайдера-->
 					<label for="slide1"></label>
@@ -138,26 +138,56 @@
 			<h2>general director</h2>
 		</div>
 	</section>
-	<section class="container" id="talk">
-		
+	<section class="container" id="talk">		
 		<div class="title">
 			<h1>Let’s Talk</h1>				
-		</div>
-
-		<div id="talk_form">
-			forms
-		</div>
-
-		<div class="button clearfix" id="b3">
-			<a href="#">send</a>
-		</div>
-		
+		</div>		
+		<form action="" id="talk_form">			
+			<div>
+				<label for="your_name">your name </label>
+				<input type="text" id="your_name" required>
+			</div>
+			<div>
+				<label for="email_address">email address </label>
+				<input type="email" id="email_address" required>
+			</div>
+			<div>
+				<label for="phone_(optional)">phone (optional) </label>
+				<input type="tel" id="phone_(optional)">
+			</div>				
+			<div>
+				<label for="subject">subject </label>
+				<select id="subject" required>
+					<option value="option_0"></option>
+					<option value="option_1">option_1</option>
+					<option value="option_2">option_2</option>
+					<option value="option_3">option_3</option>
+					<option value="option_4">option_4</option>
+				</select>
+			</div>
+			<div>
+				<label for="message">message </label>					
+				<textarea id="message" cols="70" rows="1" required></textarea>
+			</div>												
+			<input type="submit" value="send">
+		</form>	
 	</section>	
-	<footer class="container">	footer 
-		<div>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-pinterest"></i></a>
-			<a href="#"><i class="fab fa-facebook-square"></i></a>
+	<footer class="container"> 
+		<div id="contacts">
+			<h1>Visit our showroom at:</h1>
+			<p>2005 Stokes Isle Apt. 896, Venaville,</p>
+			<p>New York 10010, USA</p>
+			<h1>Leave a message:</h1>
+			<p>info@yourdomain.com</p>
+			<p>(+68) 120034509</p>			
+		</div>		
+		<div id="social">
+			<div>© Triangle Studio 2018. All Right Reserved.</div>
+			<div>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-pinterest"></i></a>
+				<a href="#"><i class="fab fa-facebook-square"></i></a>
+			</div>
 		</div>
 	</footer>
 </body>

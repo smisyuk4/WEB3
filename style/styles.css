@@ -10,8 +10,7 @@ div {
 
 .container {
 	width: 1420px;
-	margin: 0 auto;
-	border: 1px solid red;
+	margin: 0 auto;	
 }
 
 nav {
@@ -110,11 +109,6 @@ nav ul li a:hover{
 	color: #f20000;
 	transition: all 0.5s ease;
 }
-
-#b1 a {
-
-}
-
 
 .second_page {	
 	background: #f1f7fa;
@@ -443,15 +437,132 @@ nav ul li a:hover{
 
 #talk {
 	background: #ffffff;
-	height: 760px;
+	height: 800px;
 }
 
-#talk_form {
-	border: 2px solid blue;
+#talk_form {	
 	text-align: center;
+	width: 1070px;
+	margin: 0 auto;
 }
 
-#b3 {
-	padding-top: 35px;
-	padding-left: 635px;
+#talk_form div {
+	width: 470px;		
+}
+
+#talk_form label {
+	font-weight: bold;
+	font-size: 20px;
+	display: block;
+	padding-top: 70px;	
+}
+
+#talk_form div:nth-child(1){
+	float: left;
+	text-align: left;	
+}
+
+#talk_form div:nth-child(3){
+	float: left;
+	text-align: left;
+}
+
+#talk_form div:nth-child(2){
+	float: right;
+	text-align: left;
+}
+
+#talk_form div:nth-child(4){
+	float: right;
+	text-align: left;
+}
+
+#talk_form div:nth-child(5){
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+
+#talk_form input, select {
+	border: 0;
+	border-bottom: 3px solid black;
+	font-size: 30px;
+	display: block;	
+	width: 100%;
+}
+
+#talk_form textarea {
+	resize: none;
+	border: 0;
+	font-size: 30px;
+	border-bottom: 3px solid black;
+	margin-bottom: 30px;
+}
+
+
+#talk_form input[type="submit"]{
+	border: 0;	
+	font-size: 25px;
+	font-weight: bold;
+	color: #000000FF;
+	background: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	width: 173px;
+	padding: 24px 0;
+	box-shadow: 18px 22px 0 #e8fd37;
+	margin: 0 auto;
+}
+
+#talk_form input[type="submit"]:hover{
+	color: #f20000;
+	transition: all 0.5s ease;
+}
+
+footer {
+	background: url(../img/footer_lamp.png) no-repeat center top / cover;
+	height: 550px;
+}
+
+#contacts h1{
+	font-size: 30px;	
+	color: #ffffff;
+	padding: 38px 0 0 175px;	
+}
+
+#contacts h1:first-child{	
+	padding-top: 60px;	
+}
+
+#contacts p {
+	font-size: 20px;
+	color: #ffffff;	
+	padding: 15px 0 0 175px;	
+}
+
+#social div {
+	font-size: 20px;
+	color: #ffffff;	
+	padding: 120px 0 0 140px;	
+	display: block;
+	width: 700px;
+	float: left;
+}
+
+#social div:last-child{
+	float: right;
+	padding: 120px 0 0 0;
+
+}
+
+#social a {
+	color: #ffffff;	
+	padding: 14px;
+	font-size: 30px;	
+	float: right;	
+}
+
+#social a:first-child {
+	padding-right: 145px;
 }
