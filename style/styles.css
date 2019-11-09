@@ -436,7 +436,7 @@ nav ul li a:hover{
 }
 
 #talk {
-	background: #ffffff;
+	background: #f1f7fa;
 	height: 800px;
 }
 
@@ -489,6 +489,7 @@ nav ul li a:hover{
 	font-size: 30px;
 	display: block;	
 	width: 100%;
+	background: #f1f7fa;
 }
 
 #talk_form textarea {
@@ -497,6 +498,7 @@ nav ul li a:hover{
 	font-size: 30px;
 	border-bottom: 3px solid black;
 	margin-bottom: 30px;
+	background: #f1f7fa;
 }
 
 
